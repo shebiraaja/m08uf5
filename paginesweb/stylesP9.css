@@ -7,9 +7,9 @@ table, th, td{
     border-collapse: collapse;
 }
 
-th{
+td,th{
     width: 300px;
-    padding-top: 15px;
+    padding: 15px;
 }
 
 
