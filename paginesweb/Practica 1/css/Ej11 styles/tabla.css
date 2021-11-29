@@ -1,0 +1,70 @@
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, td{
+    width: 100px;
+}
+
+.m04{
+    background: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.m04 a{
+    color: black;
+}
+
+.m06{
+    background: green;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.m06 a{
+    color: white;
+}
+
+.m07{
+    background: red;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.m07 a{
+    color: white;
+}
+
+.m08{
+    background: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.m08 a{
+    color: white;
+}
+
+.m10{
+    background: pink;
+    font-family: monospace;
+}
+
+.m10 a{
+    color: black;
+}
+
+.tot-alum{
+    background: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tot-alum a{
+    color: white;
+}
+
+.patio{
+    padding-left: 200px;
+}
