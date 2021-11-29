@@ -1,10 +1,12 @@
 table, tr, td{
     border: 1px solid black;
     border-collapse: collapse;
+    height: 80px;
 }
 
 tr, td{
-    width: 100px;
+    width: 90px;
+    padding-left: 20px;
 }
 
 .m04{
