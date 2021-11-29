@@ -1,6 +1,9 @@
 .navbar{
-    background: #9762;
-    padding: .5rem;
+    background: black;
+    width: 100%;
+    padding: .1rem;
+    position: fixed;
+    top: 0;
 }
 
 ul{
@@ -12,12 +15,12 @@ li{
     list-style: none;
     width: 100%;
     font-size: 23px;
-    padding: 5px;
+    padding: 1px;
 }
 
 li a{
     text-decoration: none;
-    margin: 3rem;
+    margin: 1rem;
     color: red;
 }
 
@@ -25,4 +28,25 @@ li:hover{
     background: black;
     color: white;
     cursor: pointer;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.first-table{
+    margin-top: 8rem;
+}
+
+.second-table{
+    margin-top: 8rem;
+}
+
+.third-table{
+    margin-top: 8rem;
+}
+
+.fourth-table{
+    margin-top: 8rem;
 }
