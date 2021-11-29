@@ -1,0 +1,28 @@
+.navbar{
+    background: #9762;
+    padding: .5rem;
+}
+
+ul{
+    display: flex;
+    /* justfy-content: space-between; */
+}
+
+li{
+    list-style: none;
+    width: 100%;
+    font-size: 23px;
+    padding: 5px;
+}
+
+li a{
+    text-decoration: none;
+    margin: 3rem;
+    color: red;
+}
+
+li:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
