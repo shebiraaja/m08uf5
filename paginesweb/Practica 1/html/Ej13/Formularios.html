@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formularios</h1>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Información Basica</legend>
+
+                <label for="fname">Nombre</label><br>
+                <input type="text" id="fname" placeholder="tunombre">
+                <br><br>
+
+                <label for="height">Altura en centimetros</label><br>
+                <input type="number" id="height">
+                <span>cm</span>
+                <br>
+                <br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="tuemail@dominio.com">
+                <br><br>
+
+                <label for="birthday">Fecha Nacimiento</label><br>
+                <input type="date" id="birthday">
+            </fieldset>
+
+            <fieldset>
+                <legend>Nacionalidad</legend>
+
+                <input type="radio" name="Española" value="Española" id="española">
+                <label for="española">Española</label>
+
+                <input type="radio" name="Comunitario" value="Comunitario(UE)" id="comunitario">
+                <label for="comunitario">Comunitario(UE)</label>
+
+                <input type="radio" name="NoComunitario" value="No Comunitario" id="noComunitario">
+                <label for="noComunitario">No Comunitario</label>
+            </fieldset>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
