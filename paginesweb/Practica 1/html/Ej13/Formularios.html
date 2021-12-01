@@ -6,82 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <link rel="stylesheet" href="../../css/Ej13 styles/Formularios.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Formularios</h1>
+
+        <h1>Currículum</h1>
         <form action="#" method="get">
             <fieldset>
-                <legend>Información Basica</legend>
 
-                <label for="fname">Nombre</label><br>
-                <input type="text" id="fname" placeholder="tunombre">
-                <br><br>
+                <fieldset class="info-basica">
+                    <legend class="form-title">Información Basica</legend>
 
-                <label for="height">Altura en centimetros</label><br>
-                <input type="number" id="height">
-                <span>cm</span>
-                <br>
-                <br>
+                    <label for="fname">Nombre</label><br>
+                    <input type="text" id="fname" placeholder="tunombre">
+                    <br><br>
 
-                <label for="email">Email</label><br>
-                <input type="email" id="email" placeholder="tuemail@dominio.com">
-                <br><br>
+                    <label for="height">Altura en centimetros</label><br>
+                    <input type="number" id="height">
+                    <span>cm</span>
+                    <br>
+                    <br>
 
-                <label for="birthday">Fecha Nacimiento</label><br>
-                <input type="date" id="birthday">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="tuemail@dominio.com">
+                    <br><br>
+
+                    <label for="birthday">Fecha Nacimiento</label><br>
+                    <input type="date" id="birthday">
+                </fieldset>
+
+                <fieldset class="nacionalidad">
+                    <legend class="form-title">Nacionalidad</legend>
+
+                    <input type="radio" name="nacionalidad" value="Española" id="española">
+                    <label for="española">Española</label>
+
+                    <input type="radio" name="nacionalidad" value="Comunitario(UE)" id="comunitario">
+                    <label for="comunitario">Comunitario(UE)</label>
+
+                    <input type="radio" name="nacionalidad" value="No Comunitario" id="noComunitario">
+                    <label for="noComunitario">No Comunitario</label>
+                </fieldset>
+
+
+                <fieldset class="estudios">
+                    <legend class="form-title">Estudios</legend>
+
+                    <select name="estudios" id="estudios">
+                        <option value="">...</option>
+                        <option value="ESO">ESO</option>
+                        <option value="GM SMX">GM SMX</option>
+                        <option value="GS ASIX">GS ASIX</option>
+                        <option value="GS DAW">GS DAW</option>
+                        <option value="GS DAM">GS DAM</option>
+                    </select>
+
+                </fieldset>
+
+                <fieldset class="idiomas">
+                    <legend class="form-title">Idiomas</legend>
+
+                    <input type="checkbox" name="catalan" id="catalan">
+                    <label for="catalan">Catalán</label>
+
+                    <input type="checkbox" name="Castellano" id="castellano">
+                    <label for="castellano">Castellano</label>
+
+                    <input type="checkbox" name="Ingles" id="ingles">
+                    <label for="ingles">Inglés</label>
+
+                    <input type="checkbox" name="chino" id="chino">
+                    <label for="chino">Chino</label>
+                </fieldset>
+
+                <fieldset class="buttons">
+                    <input class="btn-submit" type="submit" value="Enviar">
+                    <input class="btn-cancel" type="reset" value="Cancelar">
+                </fieldset>
             </fieldset>
-
-            <fieldset>
-                <legend>Nacionalidad</legend>
-
-                <input type="radio" name="Española" value="Española" id="española">
-                <label for="española">Española</label>
-
-                <input type="radio" name="Comunitario" value="Comunitario(UE)" id="comunitario">
-                <label for="comunitario">Comunitario(UE)</label>
-
-                <input type="radio" name="NoComunitario" value="No Comunitario" id="noComunitario">
-                <label for="noComunitario">No Comunitario</label>
-            </fieldset>
-
-
-            <fieldset>
-                <legend>Estudios</legend>
-                
-                <select name="estudios" id="estudios">
-                    <option value="">...</option>
-                    <option value="ESO">ESO</option>
-                    <option value="GM SMX">GM SMX</option>
-                    <option value="GS ASIX">GS ASIX</option>
-                    <option value="GS DAW">GS DAW</option>
-                    <option value="GS DAM">GS DAM</option>
-                </select>
-                
-            </fieldset>
-
-            <fieldset>
-                <legend>Idiomas</legend>
-
-                <input type="checkbox" name="catalan" id="catalan">
-                <label for="catalan">Catalán</label>
-
-                <input type="checkbox" name="Castellano" id="castellano">
-                <label for="castellano">Castellano</label>
-
-                <input type="checkbox" name="Ingles" id="ingles">
-                <label for="ingles">Inglés</label>
-
-                <input type="checkbox" name="chino" id="chino">
-                <label for="chino">Chino</label>
-            </fieldset>
-
-            <fieldset>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Cancelar">
-            </fieldset>
-
         </form>
     </div>
 </body>

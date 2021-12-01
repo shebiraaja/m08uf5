@@ -1,0 +1,69 @@
+.form-title{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+.info-basica{
+    background-color: rgba(255, 99, 71, 0.664);
+}
+
+.info-title{
+    font-style: italic;
+    color: blue;
+}
+
+.nacionalidad{
+    background-color:rgba(29, 243, 29, 0.582) ;
+}
+
+.nacionalidad-title{
+    font-style: italic;
+    
+}
+
+.estudios{
+    background-color: pink;
+}
+
+.idiomas{
+    background-color: rgba(14, 106, 182, 0.432);
+}
+
+.buttons{
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.418);
+}
+
+.btn-submit{
+    background-color: rgba(128, 128, 128, 0.418);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 7px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-submit:hover{
+    background-color: rgba(128, 128, 128, 0.185);
+    transition: .8s;
+}
+
+.btn-cancel{
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.418);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 7px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-cancel:hover{
+    background-color: rgba(128, 128, 128, 0.185);
+    transition: .8s;
+}
