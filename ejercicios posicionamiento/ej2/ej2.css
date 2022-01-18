@@ -1,0 +1,119 @@
+.container {
+    width: 600px;
+    height: 600px;
+}
+
+.izquierda {
+    width: 400px;
+    height: 600px;
+    float: left;
+}
+
+
+.derecha {
+    width: 200px;
+    height: 600px;
+    float: right;
+}
+
+.div1 {
+    background-color: green;
+    width:400px;
+    height: 70px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+
+}
+
+.div2 {
+    background-color:blue;
+    width: 190px;
+    height: 150px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+
+} 
+
+.div3 {
+    background-color:yellow;
+    width: 200px;
+    height: 230px;
+    float: right;
+    margin: 0px 0px 10px 0px;
+ 
+} 
+  
+.div4 {
+    width: 190px;
+    background-color:black;
+    height: 70px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+
+} 
+
+.div5 {
+    width: 190px;
+    height: 150px;
+    background-color:black;
+    float: left;
+    margin: 0px 0px 10px 0px;
+} 
+
+.div6 {
+    background-color:purple;
+    width: 200px;
+    height: 70px;
+    float: right;
+    margin: 0px 0px 10px 0px;
+} 
+
+.div7 {
+    background-color:grey;
+    width: 200px;
+    height: 70px;
+    float: right;
+    margin: 0px 0px 10px 0px;
+} 
+
+.div8 {
+    background-color:red;
+    width: 190px;
+    height: 70px;
+    float: right;
+    margin: 0px 0px 10px 0px;
+}
+
+.div9 {
+    background-color:pink;
+    width: 190px;
+    height: 70px;
+    float: right;
+    margin: 0px 0px 10px 0px;
+
+}
+
+
+.div10 {
+    background-color:chocolate;
+    width: 190px;
+    height: 70px;
+    float: right;
+    margin: 0px 0px 10px 0px;
+}
+
+.div11 {
+    background-color:black;
+    width: 190px;
+    height: 150px;
+    float: left;  
+    margin: 0px 0px 10px 10px; 
+} 
+
+.div12 {
+    background-color:lightgreen;
+    width: 190px;
+    height: 70px;
+    float: right;
+    margin: 0px 0px 10px 10px;
+} 

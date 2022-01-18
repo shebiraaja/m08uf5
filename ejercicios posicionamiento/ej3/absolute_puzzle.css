@@ -1,0 +1,92 @@
+.div1{
+    background-color: green;
+    width: 600px;
+    height: 70px;
+    margin: 0px 0px 10px 0px;
+}
+
+.div2{
+    background-color: grey;
+    width: 200px;
+    position: absolute;
+    height: 70px;
+    margin: 0px 0px 10px 0px;
+}
+
+.div3{
+    background-color: hotpink;
+    width: 390px;
+    position: absolute;
+    left: 208px;
+    height: 230px;
+    margin: 0px 0px 10px 10px;
+
+}
+
+.div4{
+    background-color: indigo;
+    position: absolute;
+    top: 168px;
+    height: 70px;
+    margin: 0px 0px 10px 0px;
+    width: 200px;
+
+}
+
+.div5{
+    background-color: black;
+    position: absolute;
+    top: 248px;
+    height: 70px;
+    margin: 0px 0px 10px 0px;
+    width: 200px;
+
+}
+
+.div6{
+    position: absolute;
+    background-color: chocolate;
+    width: 200px;
+    height: 150px;
+    margin: 0px 0px 10px 0px;
+    top: 328px;
+
+}
+
+.div7{
+    position: absolute;
+    background-color: goldenrod;
+    width: 190px;
+    height: 70px;
+    margin: 0px 0px 10px 10px;
+    top: 328px;
+    left: 208px;
+}
+
+.div8{
+    position: absolute;
+    background-color: green;
+    width: 190px;
+    height: 70px;
+    margin: 0px 0px 10px 10px;
+    top: 408px;
+    left: 208px;
+}
+
+.div9{
+    position: absolute;
+    background-color: yellow;
+    width: 190px;
+    height: 240px;
+    margin: 0px 0px 0px 10px;
+    top: 328px;
+    left: 408px;
+}
+
+.div10{
+    position: absolute;
+    background-color: blue;
+    width: 400px;
+    height: 80px;
+    top: 488px;
+}
