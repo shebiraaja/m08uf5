@@ -2,20 +2,23 @@ body {
   background-color: #faf5cd;
 }
 
-
 #header{
   width: 735px;
 }
-.page {
+
+.pagina {
   width: 830px;
   background-color: #fef2cd;
 }
+
 .asidel {
   float: left;
 }
+
 .asider {
   float: right;
 }
+
 section {
   display: flex;
   justify-content: center;
@@ -26,7 +29,7 @@ section {
   margin-left: -10px;
 }
 
-#two{
+#one{
   margin-left: 12px;
   width: 700px;
 }
@@ -37,22 +40,19 @@ section {
   justify-content: center;
 }
 
-#cuatro {
-  float: left;
-}
 
-#cinco {
+#six {
   width: 400px;
   margin-right: 0;
 }
 
-.seis {
+.five {
   float: right;
   margin-right: 100px;
 }
 
 
-#siete {
+#three {
   float: left;
   margin-top: 15px;
 }
@@ -62,25 +62,19 @@ section {
   height: 440px;
 }
 
-#ocho{
+#seven{
   margin-left: 105px;
 }
 
-#nueve {
-  float: left;
-}
 
-#diez {
-  float: right;
-}
 
-#once {
+#eight {
   margin-left: 0px;
   margin-bottom: 60px;
   width: 400px;
 }
 
-#doce {
+#nine {
   margin-left: -100px;
   margin-top: -25px;
   width: 700px;
