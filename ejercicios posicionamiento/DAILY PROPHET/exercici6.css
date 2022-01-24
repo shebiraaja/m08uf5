@@ -1,0 +1,87 @@
+body {
+  background-color: #faf5cd;
+}
+
+
+#header{
+  width: 735px;
+}
+.page {
+  width: 830px;
+  background-color: #fef2cd;
+}
+.asidel {
+  float: left;
+}
+.asider {
+  float: right;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+#subheader{
+  width: 750px;
+  margin-left: -10px;
+}
+
+#two{
+  margin-left: 12px;
+  width: 700px;
+}
+
+#tres {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#cuatro {
+  float: left;
+}
+
+#cinco {
+  width: 400px;
+  margin-right: 0;
+}
+
+.seis {
+  float: right;
+  margin-right: 100px;
+}
+
+
+#siete {
+  float: left;
+  margin-top: 15px;
+}
+
+#img {
+  width: 350px;
+  height: 440px;
+}
+
+#ocho{
+  margin-left: 105px;
+}
+
+#nueve {
+  float: left;
+}
+
+#diez {
+  float: right;
+}
+
+#once {
+  margin-left: 0px;
+  margin-bottom: 60px;
+  width: 400px;
+}
+
+#doce {
+  margin-left: -100px;
+  margin-top: -25px;
+  width: 700px;
+}
